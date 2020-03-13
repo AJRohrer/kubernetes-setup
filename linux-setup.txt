@@ -1,0 +1,6 @@
+master: k8spi-1
+	ip 192.168.0.100
+worker 1: k8spi-2
+	ip 192.168.0.101
+worker 2: k8spi-3
+	ip 192.168.0.102

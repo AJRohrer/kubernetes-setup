@@ -1,0 +1,8 @@
+//turn swap off
+sudo dphys-swapfile swapoff
+sudo dphys-swapfile uninstall
+sudo update-rc.d dphys-swapfile remove
+sudo apt purge dphys-swapfile
+
+//Other instructions
+https://github.com/teamserverless/k8s-on-raspbian/blob/master/GUIDE.md
